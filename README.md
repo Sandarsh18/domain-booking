@@ -1,4 +1,4 @@
-DOMAIN BOOKING WEB APPLICATION
+**DOMAIN BOOKING WEB APPLICATION
 
 This is a full-stack Domain Booking System developed using:
 
@@ -21,4 +21,3 @@ Main Features:
     The frontend is built with HTML, CSS, and optionally Bootstrap.
 
     Project uses modular Express routing (auth.js, booking.js, admin.js).
-
