@@ -1,0 +1,11 @@
+row.innerHTML = `
+    <td>${booking.username}</td>
+    <td>${booking.domain_name}</td>
+    <td>${new Date(booking.booking_date).toLocaleString()}</td>
+    <td id="status-${booking.id}">${booking.status}</td>
+    <td>
+        <button class="btn btn-success" onclick="approveBooking('${booking.id}')">Approve</button>
+        <button class="btn btn-danger" onclick="rejectBooking('${booking.id}')">Reject</button>
+    </td>
+`;
+
